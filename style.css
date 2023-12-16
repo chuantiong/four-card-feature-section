@@ -62,7 +62,7 @@ h1, h2, p {
 }
 
 .card__icon {
-    margin-top: 2em;
+    margin-top: 2.06rem;
     margin-left: auto;
     display: block;
 }
@@ -80,7 +80,7 @@ h1, h2, p {
 }
 
 .main {
-    padding: 5.3em 2em 4.87em;
+    padding: 5.3rem 2rem 4.87rem;
 }
 
 .introduction-section {
@@ -103,7 +103,7 @@ h1, h2, p {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--white-clr);
-    padding: 1.47em 1.75em;
+    padding: 1.47rem 1.75rem 1.75rem;
     border-radius: 8px;
     box-shadow: 0px 15px 30px 0px rgba(131, 166, 210, 0.50);
 }
@@ -163,12 +163,18 @@ h1, h2, p {
 }
 
 @media (min-width: 1100px) {
+    .card__icon {
+        margin-top: 2.5rem;
+        margin-left: auto;
+        display: block;
+    }
+
     .container {
         max-width: 1440px;
     }
 
     .main {
-        padding: 5em 10.3em;
+        padding: 5rem 10.3rem;
     }
 
     .introduction__title {
@@ -189,7 +195,7 @@ h1, h2, p {
     }
 
     .card {
-        padding: 1.75em 2em;
+        padding: 1.75rem 2rem 2rem;
     }
 
     .card__description {
