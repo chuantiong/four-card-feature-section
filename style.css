@@ -1,6 +1,7 @@
 :root {
     --light-clr: #F2F2F2;
     --white-clr: #fff;
+    --background-clr: #FAFAFA;
     --fw-extra-light: 200;
     --fw-reg: 400;
     --fw-semibold: 600;
@@ -18,7 +19,7 @@ body {
     font-family: 'Poppins', sans-serif;
     display: grid;
     place-items: center;
-    background: var(--light-clr);
+    background: var(--background-clr);
 }
 
 /* General */
@@ -73,7 +74,7 @@ h1, h2, p {
 /* Layouts */
 
 .container {
-    background-color: #FAFAFA;
+    background-color: var(--background-clr);
     width: 100%;
     min-width: 375px;
 }
