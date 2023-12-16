@@ -46,6 +46,7 @@ h1, h2, p {
     margin-top: 0.9375em;
     line-height: 1.5625rem;
     letter-spacing: 0.0065rem;
+    margin-inline: auto;
 }
 
 .card__title {
@@ -85,7 +86,7 @@ h1, h2, p {
 
 .introduction-section {
     text-align: center;
-    margin-bottom: 4.75em;
+    margin-bottom: 4.75rem;
 }
 
 .cards-section {
@@ -177,10 +178,18 @@ h1, h2, p {
         padding: 5rem 10.3rem;
     }
 
+    .introduction-section {
+        margin-bottom: 4rem;
+    }
+
     .introduction__title {
         font-size: 2.25rem;
         letter-spacing: 0.01044rem;
         letter-spacing: 0.01563rem;
+    }
+
+    .introduction__description {
+        width: 50%;
     }
 
     .cards-section {
